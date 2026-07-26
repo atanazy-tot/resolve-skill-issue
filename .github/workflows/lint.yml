@@ -1,0 +1,17 @@
+name: lint
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  lint-v0:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - run: uv run --locked tools/lint_v0.py
+    # Environment is project-managed: pyproject.toml + uv.lock (uv add / uv run — no pip).
+    # M1: replace with `quiver lint` — rules QV-001…QV-008 incl. secret scan QV-006 (PRD §6.5).

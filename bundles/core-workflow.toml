@@ -1,0 +1,22 @@
+# core-workflow.toml — baseline bundle for every fueled repo.
+# Also serves as living documentation of the bundle-manifest schema (PRD §5.2).
+
+name = "core-workflow"
+description = "Baseline setup: registry dogfooding tools that belong everywhere."
+
+# Bundle composition: names of other bundles included wholesale.
+# Cycle-checked (QV-008).
+includes = []
+
+# Top-level skill ids to install. Shared-references are NEVER listed here —
+# they enter a target repo only through composition picks (PRD §6.4).
+assets = ["author-skill", "audit-skills", "refactor-skill"]
+
+# Optional pre-declared composition picks. Keys are slot names declared in asset
+# frontmatter (requires-one-of / requires-any); values are shared-reference ids
+# (one string for one-of, a list for any). Declaring a pick here skips the
+# interactive prompt for that slot (PRD §6.4).
+#
+# [picks]
+# lang-guide = "lang-python"
+# paradigm = ["paradigm-fp"]

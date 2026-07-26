@@ -1,0 +1,22 @@
+# taxonomy.toml — controlled vocabulary for the registry.
+#
+# QV-005 (warning): every asset tag must be declared under [tags] or match a group name.
+# QV-007 (error):   every group referenced by requires-one-of / requires-any must be
+#                   declared under [groups] and resolve to at least one asset carrying
+#                   the group name as a tag.
+#
+# Tags describe assets for search/discovery only (no membership semantics).
+# Groups are composition targets: carrying the group tag makes an asset eligible
+# to fill a composition slot.
+
+[tags]
+workflow = "Development workflow and process guidance"
+programming = "General programming practice"
+review = "Reviewing, auditing, or improving code and assets"
+authoring = "Creating and evolving registry assets"
+meta = "Assets about the registry itself (dogfooding)"
+
+[groups]
+lang-guide = "Language deep-dives; exactly one fills a skill's `lang-guide` slot"
+paradigm-guide = "Paradigm principles (OOP/FP); any number fill a skill's `paradigm` slots"
+skill-authoring = "Playbooks required by the meta skills (author-skill, audit-skills, refactor-skill)"
