@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "registry": {
+    "path": "."
+  },
+  "installed": [
+    {
+      "id": "audit-skills",
+      "kind": "skill",
+      "bundle": null,
+      "targets": [
+        "opencode"
+      ],
+      "picks": {},
+      "files": [
+        {
+          "path": ".opencode/skills/audit-skills/SKILL.md",
+          "sha256": "b7877a84267d5b2472950cff5f14fbbd409889ede1d95c11b1d0d51b287d43e2"
+        },
+        {
+          "path": ".opencode/skills/audit-skills/references/audit-checklist.md",
+          "sha256": "ef513e41e5b0e3629fe66acf32bb99a9d28c6a04e3e4c5e1830ada6c614a5ced"
+        },
+        {
+          "path": ".opencode/skills/audit-skills/references/descriptions.md",
+          "sha256": "1a0c73916c68dea0df19fa54585a60dc967a6407e23180c4bfc5c6b3e5bc7d09"
+        },
+        {
+          "path": ".opencode/skills/audit-skills/references/restructuring.md",
+          "sha256": "72bd6d6f9c6bfc927d862e5740080418850bab14f82a5b2422d113a89e512209"
+        }
+      ]
+    },
+    {
+      "id": "author-skill",
+      "kind": "skill",
+      "bundle": "core-workflow",
+      "targets": [
+        "claude",
+        "opencode"
+      ],
+      "picks": {},
+      "files": [
+        {
+          "path": ".claude/skills/author-skill/SKILL.md",
+          "sha256": "5fa01a0afb908c0a21c6868a28c5290d431b5d97c43ea4ee974f5a077b4b3694"
+        },
+        {
+          "path": ".claude/skills/author-skill/references/audit-checklist.md",
+          "sha256": "ef513e41e5b0e3629fe66acf32bb99a9d28c6a04e3e4c5e1830ada6c614a5ced"
+        },
+        {
+          "path": ".claude/skills/author-skill/references/descriptions.md",
+          "sha256": "1a0c73916c68dea0df19fa54585a60dc967a6407e23180c4bfc5c6b3e5bc7d09"
+        },
+        {
+          "path": ".claude/skills/author-skill/references/restructuring.md",
+          "sha256": "72bd6d6f9c6bfc927d862e5740080418850bab14f82a5b2422d113a89e512209"
+        },
+        {
+          "path": ".opencode/skills/author-skill/SKILL.md",
+          "sha256": "5fa01a0afb908c0a21c6868a28c5290d431b5d97c43ea4ee974f5a077b4b3694"
+        },
+        {
+          "path": ".opencode/skills/author-skill/references/audit-checklist.md",
+          "sha256": "ef513e41e5b0e3629fe66acf32bb99a9d28c6a04e3e4c5e1830ada6c614a5ced"
+        },
+        {
+          "path": ".opencode/skills/author-skill/references/descriptions.md",
+          "sha256": "1a0c73916c68dea0df19fa54585a60dc967a6407e23180c4bfc5c6b3e5bc7d09"
+        },
+        {
+          "path": ".opencode/skills/author-skill/references/restructuring.md",
+          "sha256": "72bd6d6f9c6bfc927d862e5740080418850bab14f82a5b2422d113a89e512209"
+        }
+      ]
+    },
+    {
+      "id": "refactor-skill",
+      "kind": "skill",
+      "bundle": "core-workflow",
+      "targets": [
+        "claude",
+        "opencode"
+      ],
+      "picks": {},
+      "files": [
+        {
+          "path": ".claude/skills/refactor-skill/SKILL.md",
+          "sha256": "dd3cf4db83d4a1d8ebdda39247343e525ff578f6b904ecb58a5eee6f5c0fa27d"
+        },
+        {
+          "path": ".claude/skills/refactor-skill/references/audit-checklist.md",
+          "sha256": "ef513e41e5b0e3629fe66acf32bb99a9d28c6a04e3e4c5e1830ada6c614a5ced"
+        },
+        {
+          "path": ".claude/skills/refactor-skill/references/descriptions.md",
+          "sha256": "1a0c73916c68dea0df19fa54585a60dc967a6407e23180c4bfc5c6b3e5bc7d09"
+        },
+        {
+          "path": ".claude/skills/refactor-skill/references/restructuring.md",
+          "sha256": "72bd6d6f9c6bfc927d862e5740080418850bab14f82a5b2422d113a89e512209"
+        },
+        {
+          "path": ".opencode/skills/refactor-skill/SKILL.md",
+          "sha256": "dd3cf4db83d4a1d8ebdda39247343e525ff578f6b904ecb58a5eee6f5c0fa27d"
+        },
+        {
+          "path": ".opencode/skills/refactor-skill/references/audit-checklist.md",
+          "sha256": "ef513e41e5b0e3629fe66acf32bb99a9d28c6a04e3e4c5e1830ada6c614a5ced"
+        },
+        {
+          "path": ".opencode/skills/refactor-skill/references/descriptions.md",
+          "sha256": "1a0c73916c68dea0df19fa54585a60dc967a6407e23180c4bfc5c6b3e5bc7d09"
+        },
+        {
+          "path": ".opencode/skills/refactor-skill/references/restructuring.md",
+          "sha256": "72bd6d6f9c6bfc927d862e5740080418850bab14f82a5b2422d113a89e512209"
+        }
+      ]
+    }
+  ]
+}
